@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/27/6a/29/276a29d6e86e8fb3f9b96e524c1d2823.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.Endi-logo {
+  width: 55px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaBandas {
+  display: flex;
+  flex-wrap: wrap;
+}
+#listaBandas img {
+  margin: 10px;
+  max-height: 180px;
+  border-radius: 6px;
+  border: 3px solid #881100;
+  transition: 0.5s;
+}
+#listaBandas img:hover {
+  opacity: 0.5;
+}
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #881100;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  background: #881100;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-family: "Courier", monospace;
+  color: #881100;
+  font-size: 16px;
+}
